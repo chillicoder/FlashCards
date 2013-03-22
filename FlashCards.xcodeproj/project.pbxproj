@@ -18,6 +18,10 @@
 		52AB0AFB16FAD82C0055400A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52AB0AFA16FAD82C0055400A /* Default-568h@2x.png */; };
 		52AB0AFE16FAD82C0055400A /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB0AFD16FAD82C0055400A /* FCViewController.m */; };
 		52AB0B0116FAD82C0055400A /* FCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AB0AFF16FAD82C0055400A /* FCViewController.xib */; };
+		52AB0B0D16FADA930055400A /* FCCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB0B0B16FADA930055400A /* FCCardViewController.m */; };
+		52AB0B0E16FADA930055400A /* FCCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AB0B0C16FADA930055400A /* FCCardViewController.xib */; };
+		52AB0B1216FADAD50055400A /* FCResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB0B1016FADAD50055400A /* FCResultViewController.m */; };
+		52AB0B1316FADAD50055400A /* FCResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AB0B1116FADAD50055400A /* FCResultViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +33,20 @@
 		52AB0AEE16FAD82C0055400A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52AB0AF016FAD82C0055400A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52AB0AF216FAD82C0055400A /* FlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Prefix.pch"; sourceTree = "<group>"; };
-		52AB0AF316FAD82C0055400A /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
-		52AB0AF416FAD82C0055400A /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		52AB0AF316FAD82C0055400A /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FCAppDelegate.h; path = ../FlashCards/FCAppDelegate.h; sourceTree = "<group>"; };
+		52AB0AF416FAD82C0055400A /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FCAppDelegate.m; path = ../FlashCards/FCAppDelegate.m; sourceTree = "<group>"; };
 		52AB0AF616FAD82C0055400A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		52AB0AF816FAD82C0055400A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		52AB0AFA16FAD82C0055400A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		52AB0AFC16FAD82C0055400A /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
-		52AB0AFD16FAD82C0055400A /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		52AB0AFC16FAD82C0055400A /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FCViewController.h; path = ../FlashCards/FCViewController.h; sourceTree = "<group>"; };
+		52AB0AFD16FAD82C0055400A /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FCViewController.m; path = ../FlashCards/FCViewController.m; sourceTree = "<group>"; };
 		52AB0B0016FAD82C0055400A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FCViewController.xib; sourceTree = "<group>"; };
+		52AB0B0A16FADA930055400A /* FCCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCardViewController.h; sourceTree = "<group>"; };
+		52AB0B0B16FADA930055400A /* FCCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCardViewController.m; sourceTree = "<group>"; };
+		52AB0B0C16FADA930055400A /* FCCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FCCardViewController.xib; path = ../Classes/FCCardViewController.xib; sourceTree = "<group>"; };
+		52AB0B0F16FADAD50055400A /* FCResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCResultViewController.h; sourceTree = "<group>"; };
+		52AB0B1016FADAD50055400A /* FCResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCResultViewController.m; sourceTree = "<group>"; };
+		52AB0B1116FADAD50055400A /* FCResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FCResultViewController.xib; path = ../Classes/FCResultViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		52AB0AD816FAD82C0055400A = {
 			isa = PBXGroup;
 			children = (
+				52AB0B0916FAD8C50055400A /* Resources */,
+				52AB0B0716FAD8A70055400A /* Classes */,
 				52AB0AEA16FAD82C0055400A /* FlashCards */,
 				52AB0AE316FAD82C0055400A /* Frameworks */,
 				52AB0AE216FAD82C0055400A /* Products */,
@@ -83,11 +95,6 @@
 		52AB0AEA16FAD82C0055400A /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
-				52AB0AF316FAD82C0055400A /* FCAppDelegate.h */,
-				52AB0AF416FAD82C0055400A /* FCAppDelegate.m */,
-				52AB0AFC16FAD82C0055400A /* FCViewController.h */,
-				52AB0AFD16FAD82C0055400A /* FCViewController.m */,
-				52AB0AFF16FAD82C0055400A /* FCViewController.xib */,
 				52AB0AEB16FAD82C0055400A /* Supporting Files */,
 			);
 			path = FlashCards;
@@ -105,6 +112,31 @@
 				52AB0AFA16FAD82C0055400A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52AB0B0716FAD8A70055400A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52AB0B0F16FADAD50055400A /* FCResultViewController.h */,
+				52AB0B1016FADAD50055400A /* FCResultViewController.m */,
+				52AB0AF316FAD82C0055400A /* FCAppDelegate.h */,
+				52AB0AF416FAD82C0055400A /* FCAppDelegate.m */,
+				52AB0AFC16FAD82C0055400A /* FCViewController.h */,
+				52AB0AFD16FAD82C0055400A /* FCViewController.m */,
+				52AB0B0A16FADA930055400A /* FCCardViewController.h */,
+				52AB0B0B16FADA930055400A /* FCCardViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		52AB0B0916FAD8C50055400A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52AB0B1116FADAD50055400A /* FCResultViewController.xib */,
+				52AB0B0C16FADA930055400A /* FCCardViewController.xib */,
+				52AB0AFF16FAD82C0055400A /* FCViewController.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +196,8 @@
 				52AB0AF916FAD82C0055400A /* Default@2x.png in Resources */,
 				52AB0AFB16FAD82C0055400A /* Default-568h@2x.png in Resources */,
 				52AB0B0116FAD82C0055400A /* FCViewController.xib in Resources */,
+				52AB0B0E16FADA930055400A /* FCCardViewController.xib in Resources */,
+				52AB0B1316FADAD50055400A /* FCResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +211,8 @@
 				52AB0AF116FAD82C0055400A /* main.m in Sources */,
 				52AB0AF516FAD82C0055400A /* FCAppDelegate.m in Sources */,
 				52AB0AFE16FAD82C0055400A /* FCViewController.m in Sources */,
+				52AB0B0D16FADA930055400A /* FCCardViewController.m in Sources */,
+				52AB0B1216FADAD50055400A /* FCResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +233,7 @@
 				52AB0B0016FAD82C0055400A /* en */,
 			);
 			name = FCViewController.xib;
+			path = ../FlashCards;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
