@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FCResultViewController : UIViewController
+@interface FCResultViewController : UIViewController 
+
+@property (nonatomic,strong) IBOutlet UILabel* numRightLabel;
+@property (nonatomic,strong) IBOutlet UILabel* numWrongLabel;
+
+- (IBAction)startAgain:(id)sender;
 
 @end

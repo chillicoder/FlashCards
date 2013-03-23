@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A67CB916FCF1DE006045AB /* FCCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A67CB816FCF1DE006045AB /* FCCard.m */; };
+		52A67CBF16FCF95C006045AB /* FCAnswerKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A67CBE16FCF95C006045AB /* FCAnswerKey.m */; };
+		52A67CC216FD217B006045AB /* FCGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A67CC116FD217B006045AB /* FCGame.m */; };
 		52AB0AE516FAD82C0055400A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AB0AE416FAD82C0055400A /* UIKit.framework */; };
 		52AB0AE716FAD82C0055400A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AB0AE616FAD82C0055400A /* Foundation.framework */; };
 		52AB0AE916FAD82C0055400A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AB0AE816FAD82C0055400A /* CoreGraphics.framework */; };
@@ -25,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52A67CB716FCF1DE006045AB /* FCCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCard.h; sourceTree = "<group>"; };
+		52A67CB816FCF1DE006045AB /* FCCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCard.m; sourceTree = "<group>"; };
+		52A67CBD16FCF95C006045AB /* FCAnswerKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCAnswerKey.h; sourceTree = "<group>"; };
+		52A67CBE16FCF95C006045AB /* FCAnswerKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCAnswerKey.m; sourceTree = "<group>"; };
+		52A67CC016FD217B006045AB /* FCGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCGame.h; sourceTree = "<group>"; };
+		52A67CC116FD217B006045AB /* FCGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCGame.m; sourceTree = "<group>"; };
 		52AB0AE116FAD82C0055400A /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AB0AE416FAD82C0055400A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52AB0AE616FAD82C0055400A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,7 +126,11 @@
 		52AB0B0716FAD8A70055400A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52A67CC016FD217B006045AB /* FCGame.h */,
+				52A67CC116FD217B006045AB /* FCGame.m */,
 				52AB0B0F16FADAD50055400A /* FCResultViewController.h */,
+				52A67CB716FCF1DE006045AB /* FCCard.h */,
+				52A67CB816FCF1DE006045AB /* FCCard.m */,
 				52AB0B1016FADAD50055400A /* FCResultViewController.m */,
 				52AB0AF316FAD82C0055400A /* FCAppDelegate.h */,
 				52AB0AF416FAD82C0055400A /* FCAppDelegate.m */,
@@ -125,6 +138,8 @@
 				52AB0AFD16FAD82C0055400A /* FCViewController.m */,
 				52AB0B0A16FADA930055400A /* FCCardViewController.h */,
 				52AB0B0B16FADA930055400A /* FCCardViewController.m */,
+				52A67CBD16FCF95C006045AB /* FCAnswerKey.h */,
+				52A67CBE16FCF95C006045AB /* FCAnswerKey.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -213,6 +228,9 @@
 				52AB0AFE16FAD82C0055400A /* FCViewController.m in Sources */,
 				52AB0B0D16FADA930055400A /* FCCardViewController.m in Sources */,
 				52AB0B1216FADAD50055400A /* FCResultViewController.m in Sources */,
+				52A67CB916FCF1DE006045AB /* FCCard.m in Sources */,
+				52A67CBF16FCF95C006045AB /* FCAnswerKey.m in Sources */,
+				52A67CC216FD217B006045AB /* FCGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +354,7 @@
 				52AB0B0616FAD82C0055400A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
