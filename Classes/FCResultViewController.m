@@ -14,6 +14,14 @@
 
 @implementation FCResultViewController
 
+-(id) initWithGame:(FCGame *)g {
+    if (self = [self
+                initWithNibName:@"FCResultViewController" bundle:[NSBundle mainBundle]]) {
+                    self.game = g;
+    }
+    return self;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,8 +34,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
+    self.numRightLabel.text =
+        [NSString stringWithFormat:@"%d Right",
+         [self.game getNumRight]];
+    self.numWrongLabel.text =
+        [NSString stringWithFormat:@"%d Wrong",
+         [self.game getNumWrong]];
+ }
 
 - (void)didReceiveMemoryWarning
 {
@@ -36,7 +49,7 @@
 }
 
 -(IBAction)startAgain:(id)sender{
-    
+    [self.view removeFromSuperview];
 }
 
 @end

@@ -16,7 +16,7 @@
         [[FCCard alloc]
             initWithQuestion:@"Alabama" answer:@"Montgomery" wrongAnswer1:@"Birmingham" wrongAnswer2:@"Mobile"],
         [[FCCard alloc] initWithQuestion:@"New York" answer:@"Albany" wrongAnswer1:@"New York City" wrongAnswer2:@"Buffalo"],
-        [[FCCard alloc] initWithQuestion:@"New Jersy" answer:@"Trenton" wrongAnswer1:@"Camden" wrongAnswer2:@"Newark"],
+        [[FCCard alloc] initWithQuestion:@"New Jersey" answer:@"Trenton" wrongAnswer1:@"Camden" wrongAnswer2:@"Newark"],
         [[FCCard alloc] initWithQuestion:@"Oklahoma" answer:@"Oklahoma City" wrongAnswer1:@"Tulsa" wrongAnswer2:@"Muskogee"],
     nil ];
     
